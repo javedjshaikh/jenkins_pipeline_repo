@@ -9,7 +9,7 @@ pipeline {
         }
 
         stage('test') {
-            ls -l /home/lab-user/
+            ls -l
         }
     }
 }
