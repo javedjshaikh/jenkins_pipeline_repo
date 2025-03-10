@@ -7,5 +7,9 @@ pipeline {
                 echo 'building java application'
             }
         }
+
+        stage('test') {
+            ls -l /home/lab-user/
+        }
     }
 }
